@@ -1,0 +1,17 @@
+
+<template name="products">
+
+   <h1>you are in products HTML test</h1>
+    {{#each MongoData}}
+    <p> {{author}} is the outhor of {{title}}</p> <button class = btn>delete from database</button>
+    {{/each}}
+
+    <form id = "new-person">
+        <input type="text" name = "title" placeholder="the title here">
+        <input type="text" name = "author" placeholder="the author here thanks">
+        <input type = "submit" value = 'submit'>
+    </form>
+
+
+</template>
+
